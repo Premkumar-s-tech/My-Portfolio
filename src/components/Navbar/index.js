@@ -28,7 +28,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#experience'>Internships</NavLink>
+          <NavLink href='#internship'>Internships</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
@@ -47,6 +47,9 @@ const Navbar = () => {
             <MobileLink href='#internship' onClick={() => {
               setIsOpen(!isOpen)
             }}>Internships</MobileLink>
+            <MobileLink href='#certificate' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Certification</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>

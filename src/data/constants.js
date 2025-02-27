@@ -151,6 +151,29 @@ export const internships = [
  
 ];
 
+export const certificates = [
+  
+  {
+    id: 0,
+    img: "https://tse1.mm.bing.net/th?id=OIP.KMivWKZpzt0SNV3XqjOXjwAAAA&pid=Api&P=0&h=180",
+    role: "Full Stack Development Intern",
+    company: "Marcello Tech",
+    date: "June 2023 - July 2023",
+    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    skills: [
+      "ReactJS",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDb"
+    ],
+    doc: "https://drive.google.com/file/d/1MwZu-JyOj9LFBvEgPsDhT1focLx64AnO/view",
+  },
+ 
+];
+
 export const education = [
   {
     id: 0,
