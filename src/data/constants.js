@@ -217,11 +217,11 @@ export const projects = [
     description:
       "An eCommerce website for food delivery is an online platform that allows users to browse, order, and pay for food from restaurants or home-based kitchens. The website provides a seamless experience for customers to explore various cuisines, customize their orders, and track deliveries in real-time.",
     image:
-      "file:///C:/Users/prem1/Downloads/Ecommerce-web.jpg",
+      "https://raw.githubusercontent.com/Premkumar-s-tech/My-Portfolio/a06e2a5592768298d690989b90d8bc4d3662bb36/public/Ecommerce-web.jpg",
     tags: ["React Js", "JavaScript","MongoDB", "Vercel"],
     category: "web app",
     github: "https://github.com/Premkumar-s-tech/Ecommerce-Website",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    webapp: "https://ecommerce-website-delta-two.vercel.app/",
   },
 
 
