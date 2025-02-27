@@ -147,6 +147,7 @@ export const internships = [
       "NodeJs",
       "Material UI",
       "HTML",
+      "Vite",
       "CSS",
       "JavaScript",
       "MongoDb"
@@ -201,6 +202,7 @@ export const projects = [
       "React Js",
       "TypeScript",
       "Zustand",
+      "Vite",
       "Rawg API",
       "Vanilla CSS",
       "Vercel",
