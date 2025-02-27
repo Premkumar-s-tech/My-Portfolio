@@ -217,7 +217,7 @@ export const projects = [
     description:
       "An eCommerce website for food delivery is an online platform that allows users to browse, order, and pay for food from restaurants or home-based kitchens. The website provides a seamless experience for customers to explore various cuisines, customize their orders, and track deliveries in real-time.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      "file:///C:/Users/prem1/Downloads/Ecommerce-web.jpg",
     tags: ["React Js", "JavaScript","MongoDB", "Vercel"],
     category: "web app",
     github: "https://github.com/Premkumar-s-tech/Ecommerce-Website",
