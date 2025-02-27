@@ -1,4 +1,3 @@
-
 import React from 'react'
 import styled from 'styled-components'
 import Timeline from '@mui/lab/Timeline';
@@ -7,8 +6,8 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import ExperienceCard from '../Cards/ExperienceCard';
-import { experiences } from '../../data/constants';
+import InternshipCard from '../Cards/InternshipCard';
+import { internships } from '../../data/constants';
 
 const Container = styled.div`
     display: flex;
@@ -72,31 +71,28 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-
-
 const index = () => {
     return (
-        <Container id="experience">
+        <Container id="internship">
             <Wrapper>
-                <Title>Experience</Title>
+                <Title>Internship</Title>
                 <Desc>
-                    My work experience as a software engineer and working on different companies and projects.
+                My internship experiences that shaped my career, providing valuable insights and technical expertise in real-world scenarios.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
-                        {experiences.map((experience,index) => (
-                            <TimelineItem>
+                        {internships.map((internship,index) => (
+                            <TimelineItem> 
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {index !== internships.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard experience={experience}/>
+                                    <InternshipCard internship={internship} />
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
                     </Timeline>
-
                 </TimelineSection>
             </Wrapper>
         </Container>
